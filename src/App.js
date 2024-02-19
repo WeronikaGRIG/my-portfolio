@@ -1,19 +1,19 @@
 import './css/main.css';
 
 import NavBar from './components/NavBar/NavBar';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+// import Home from './components/Home/Home';
+// import Projects from './components/ProJects/Projects';
+// import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
-
-
 
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Header />
-      <Main />
+      {/* <Home /> */}
+      {/* <Projects /> */}
+      {/* <Contacts /> */}
       <Footer />
     </div>
   );
