@@ -18,7 +18,6 @@ import sixthBigImg from '../../img/projects/06-big.jpg';
 
 const projects = [
     {
-        id: '1',
         title: 'First',
         skills: 'React, Node.js, MangoDB',
         img: firstImg,
@@ -27,7 +26,6 @@ const projects = [
     },
 
     {
-        id: '2',
         title: 'Two',
         skills: 'React, Node.js, MangoDB',
         img: secondImg,
@@ -36,7 +34,6 @@ const projects = [
     },
 
     {
-        id: '3',
         title: 'Three',
         skills: 'React, Node.js, MangoDB',
         img: thirdImg,
@@ -45,7 +42,7 @@ const projects = [
     },
 
     {
-        id: '4',
+
         title: 'Four',
         skills: 'React, Node.js, MangoDB',
         img: fourthImg,
@@ -54,7 +51,7 @@ const projects = [
     },
 
     {
-        id: '5',
+
         title: 'Five',
         skills: 'React, Node.js, MangoDB',
         img: fifthImg,
@@ -63,7 +60,7 @@ const projects = [
     },
 
     {
-        id: '6',
+
         title: 'Sixth',
         skills: 'React, Node.js, MangoDB',
         img: sixthImg,

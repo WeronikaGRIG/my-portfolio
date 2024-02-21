@@ -1,13 +1,14 @@
-
-// style import
+import { NavLink } from 'react-router-dom';
 
 export default function CardsProjects(props) {
     return (
-        <li className="project">
-            <a href="./project-page.html">
+        <NavLink to={`/project/${props.index}`}>
+            <li className="project">
+
                 <img src={props.img} alt={props.title} className="project__img" />
                 <h3 className="project__title">{props.title}</h3>
-            </a>
-        </li>
+
+            </li>
+        </NavLink>
     )
 }

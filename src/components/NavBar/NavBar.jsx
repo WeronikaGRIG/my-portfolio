@@ -1,8 +1,6 @@
 import React from 'react'
-import SunTheme from '../SunTheme/SunTheme';
-import MoonTheme from '../MoonTheme/MoonTheme';
-
 import { NavLink } from "react-router-dom";
+import ButtonDarkMode from '../UiButtons/BtnDarkMode/ButtonDarkMode';
 
 
 export default function NavBar() {
@@ -16,13 +14,10 @@ export default function NavBar() {
             <div className="container">
                 <div className="nav-row">
                     <NavLink to="/" className="logo">
-                        <strong>Freelancer</strong> portfolio
+                        <strong>MY</strong> portfolio
                     </NavLink>
 
-                    <button className="dark-mode-btn">
-                        <SunTheme className="dark-mode-btn__icon" />
-                        <MoonTheme className="dark-mode-btn__icon" />
-                    </button>
+                    <ButtonDarkMode />
 
                     <ul className="nav-list">
 

@@ -8,7 +8,7 @@ import Projects from './components/ProJects/Projects';
 import Contacts from './components/Contacts/Contacts';
 import Footer from './components/Footer/Footer';
 import ProjectPage from './components/ProjectPage/ProjectPage';
-
+import ScrollToTop from './utils/scrollToTop';
 
 
 
@@ -16,13 +16,14 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
 
         <NavBar />
 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/project" element={<ProjectPage />} />
+          <Route path="/project/:id" element={<ProjectPage />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
 

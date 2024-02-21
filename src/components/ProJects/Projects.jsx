@@ -12,7 +12,11 @@ export default function Projects() {
 
                     {projects.map((project, id) => {
                         return (
-                            <CardsProjects key={id} title={project.title} img={project.img} />
+                            <CardsProjects key={id}
+                                title={project.title}
+                                img={project.img}
+                                index={id}
+                            />
                         )
                     })}
                 </ul>
